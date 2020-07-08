@@ -1,0 +1,49 @@
+.base_content {
+  text-align: center;
+
+}
+hr.style-horizontal {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto 0 auto;
+}
+
+.air_cleaner {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 15px;
+  width: 400px;
+  margin: 0 auto 20px auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.air_cleaner img{
+  border-radius: 15px 15px 0 0;
+}
+.product-services {
+  display: inline-flex;
+  margin: 0 auto 0 auto;
+}
+.product-services h4{
+  font-size: 20px;
+}
+.base_content h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+.buy_now {
+ padding: 12px 30px;
+ color: white;
+ background-color: black;
+ border-radius: 15px;
+ text-decoration: none;
+ cursor: pointer;
+ margin-left: auto;
+ border: none;
+ margin-bottom: 15px;
+ font-size: 18px;
+}
+.air_cleaner .buy_now:hover {
+ background-color: white;
+ color:black;
+ border: none;
+ outline: none;
+}
